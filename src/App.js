@@ -44,8 +44,8 @@ class App extends Component {
                         LogOut
                     </button>
                 </div>
-                <div class="navigation"></div>
-                <div class="sidebar"></div>
+                <div className="navigation"></div>
+                <div className="sidebar"></div>
                 <div className="main">
                     {
                         this.state.token !== null ?

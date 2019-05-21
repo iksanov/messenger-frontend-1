@@ -60,7 +60,7 @@ class MessagesList extends Component {
         return (
             <div>
                 {
-                    this.state.messages.slice(400).map((message,i) => {
+                    this.state.messages.slice(450).map((message,i) => {
                         return <div key={i}>
                                     <Message
                                         userId={message.user}
